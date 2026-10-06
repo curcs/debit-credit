@@ -1,10 +1,11 @@
 """
 Телеграм-бот учета доходов и расходов -> один xlsx файл.
 
-Запуск:
-    pip install python-telegram-bot openpyxl
-    export BOT_TOKEN=...      # токен от @BotFather
-    export OWNER_ID=123456    # твой telegram id (можно узнать у @userinfobot)
+Запуск (подробнее в README.md):
+    pip install -r requirements.txt
+    # рядом со скриптом создать config.py:
+    #   BOT_TOKEN = "..."   токен от @BotFather
+    #   OWNER_ID = 123456   твой telegram id (можно узнать у @userinfobot)
     python finance_bot.py
 
 Как писать боту:
